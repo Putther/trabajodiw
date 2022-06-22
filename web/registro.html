@@ -1,0 +1,176 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Fran's Customs</title>
+</head>
+
+<body class="bg-light">
+
+    <!--NAVBAR-->
+
+    <header>
+        <div class="container">
+            <nav id="navegacion-principal" class="navbar navbar-expand-sm bg-transparent fs-4">
+
+                <a class="nav-link" href="index.html">
+                    <img class="img-fluid" src="img/logo.png" width="72%"></a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#collapsibleNavbar"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="novedades.html">Novedades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="registro.html">Registro/Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="acerca.html">Acerca de</a>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+        </nav>
+    </header>
+
+    <!--FORMULARIO-->
+
+    <main>
+        <div class="container bg-white" style="min-width: 768px;">
+            <h2 class="text-center py-4">¡Regístrate o inicia sesión en nuestra página!</h2>
+            <form class="needs-validation" novalidate>
+                <div class="form-inline">
+                    <div class="col-md-2 mb-3">
+                        <label for="validationCustom01">Nombre</label>
+                        <input type="text" class="form-control" id="validationCustom01" placeholder="Nombre" required>
+                        <div class="valid-feedback">
+                            ¡Válido!
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-2">
+                        <label for="validationCustom02">Apellidos</label>
+                        <input type="text" class="form-control" id="validationCustom02" placeholder="Apellidos"
+                            required>
+                        <div class="valid-feedback">
+                            ¡Válido!
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="validationCustomUsername">Correo electrónico</label>
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="validationCustomUsername"
+                                placeholder="Correo" aria-describedby="inputGroupPrepend" required>
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroupPrepend">@</span>
+                            </div>
+                            <input type="text" class="form-control" id="validationCustomUsername" placeholder="Dirección de correo"
+                                aria-describedby="inputGroupPrepend" required>
+                            <div class="invalid-feedback">
+                                Por favor, escoja un correo electrónico válido.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-md-6 mb-3">
+                        <label for="validationCustom03">Localidad</label>
+                        <input type="text" class="form-control" id="validationCustom03" placeholder="Localidad"
+                            required>
+                        <div class="invalid-feedback">
+                            Por favor escoja una localidad válida.
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="validationCustom04">Provincia</label>
+                        <input type="text" class="form-control" id="validationCustom04" placeholder="Provincia"
+                            required>
+                        <div class="invalid-feedback">
+                            Por favor escoja una provincia válida.
+                        </div>
+                    </div>
+                    <div class="col-md-8 mb-3">
+                        <label for="validationCustomUsername">¿Qué coche conduce? (Si tiene más de uno puede añadirlo
+                            más tarde en preferencias)</label>
+                        <div class="input-group">
+                            <span class="input-group-text" id="inputGroupPrepend">Marca:</span>
+                            <input type="text" class="form-control" id="validationCustomCar" placeholder="Marca"
+                                aria-describedby="inputGroupPrepend" required>
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroupPrepend">Modelo:</span>
+                            </div>
+                            <input type="text" class="form-control" id="validationCustomCar" placeholder="Modelo"
+                                aria-describedby="inputGroupPrepend" required>
+                            <span class="input-group-text" id="inputGroupPrepend">Año:</span>
+                            <input type="text" class="form-control" id="validationCustomCar" placeholder="Año"
+                                aria-describedby="inputGroupPrepend" required>
+                            <div class="invalid-feedback">
+                                Por favor, escoja una marca, modelo y año válidos.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                        <label class="form-check-label" for="invalidCheck">
+                            Acepto los términos y condiciones.
+                        </label>
+                        <div class="invalid-feedback">
+                            Debes estar de acuerdo con los términos y condiciones antes de enviar.
+                        </div>
+                    </div>
+                </div>
+                <a href="#">¿Tienes ya una cuenta? Inicia sesión aquí</a><br><br>
+                <button class="btn btn-primary" type="submit">Enviar</button>
+            </form>
+
+            <script>
+                // Example starter JavaScript for disabling form submissions if there are invalid fields
+                (function () {
+                    'use strict';
+                    window.addEventListener('load', function () {
+                        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                        var forms = document.getElementsByClassName('needs-validation');
+                        // Loop over them and prevent submission
+                        var validation = Array.prototype.filter.call(forms, function (form) {
+                            form.addEventListener('submit', function (event) {
+                                if (form.checkValidity() === false) {
+                                    event.preventDefault();
+                                    event.stopPropagation();
+                                }
+                                form.classList.add('was-validated');
+                            }, false);
+                        });
+                    }, false);
+                })();
+            </script>
+        </div>
+    </main>
+
+    <!--FOOTER-->
+
+    <footer class="text-color gradient d-flex flex-wrap justify-content-between align-items-center py-4 border-top">
+        <p class="col-md-4 mb-0">© 2022 Fran's Customs. Todos los derechos reservados</p>
+
+        <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item"><a href="index.html" class="nav-link px-2">Página principal</a></li>
+            <li class="nav-item"><a href="novedades.html" class="nav-link px-2">Novedades</a></li>
+            <li class="nav-item"><a href="registro.html" class="nav-link px-2">Registro/Login</a></li>
+            <li class="nav-item"><a href="acerca.html" class="nav-link px-2">Acerca de</a></li>
+        </ul>
+    </footer>
+
+</body>
+
+</html>

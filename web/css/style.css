@@ -1,0 +1,99 @@
+.nav-link {
+    color: #2c3065;
+}
+
+.hero {
+    background-image: linear-gradient(rgba(247, 101, 48, 0.75), rgba(255, 191, 34, 0.75)), url("../img/hero.jpg");
+    background-repeat: no-repeat;
+    padding: 12%;
+}
+
+.card {
+    background: linear-gradient(to right, #f76530, #ffbf22);
+    min-height: 440px;
+}
+
+.card-title {
+    color: #2c3065;
+}
+
+.card-text {
+    color: #2c3065;
+    border-radius: 8px;
+}
+
+.btn-primary {
+    background-color: #2c3065;
+}
+
+.text-color {
+    color: #2c3065;
+}
+
+.gradient {
+    background: linear-gradient(to right, #f76530, #ffbf22);
+}
+
+header img {
+    transition-property: transform;
+    transition-duration: 200ms;
+}
+
+header img:hover {
+    transform: scale(1.2);
+}
+
+.card img {
+    transition-property: transform;
+    transition-duration: 200ms;
+}
+
+.card img:hover {
+    transform: scale(1.2);
+}
+
+.ubicacion img {
+    transition-property: transform;
+    transition-duration: 200ms;
+}
+
+.ubicacion img:hover {
+    transform: rotate(-22deg) scale(1.07);
+}
+
+.redes-sociales img {
+    -webkit-transition: 200ms linear;
+    transition: 200ms linear;
+}
+
+.redes-sociales img:hover {
+    -webkit-transform: perspective(200px) rotateX(45deg);
+    transform: perspective(200px) rotateX(45deg);
+}
+
+.novedades img {
+    transition-property: transform;
+    transition-duration: 200ms;
+}
+
+.novedades img:hover {
+    transform: scale(1.07);
+}
+
+.equipo img {
+    transition-property: transform;
+    transition-duration: 200ms;
+}
+
+.equipo img:hover {
+    transform: scale(1.2) translateX(12px) translateY(-12px);
+}
+
+.acerca {
+    transition-property: transform;
+    transition-duration: 200ms;
+}
+
+.acerca:hover {
+    transform: scale(1.1);
+}

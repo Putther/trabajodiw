@@ -1,0 +1,282 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Fran's Customs</title>
+</head>
+
+<body class="bg-light">
+
+    <!--NAVBAR-->
+
+    <header>
+        <div class="container">
+            <nav id="navegacion-principal" class="navbar navbar-expand-sm bg-transparent fs-4">
+
+                <a class="nav-link" href="index.html">
+                    <img class="img-fluid" src="img/logo.png" width="72%"></a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#collapsibleNavbar"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="novedades.html">Novedades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="registro.html">Registro/Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="acerca.html">Acerca de</a>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+    </header>
+
+    <!--HERO-->
+
+    <section>
+        <div class="hero">
+            <div class="container">
+                <h1 class="text-color">BIENVENIDO A FRAN'S CUSTOMS</h1>
+                <div class="row">
+                    <div class="col-md-7">
+                        <p class="text-color">Diseña tu coche de ensueño</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--CAROUSEL-->
+
+    <main>
+        <div class="container">
+            <h2 class="text-center py-4">¿Cómo cuidamos de tu pequeñín?</h2>
+            <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/carousel1.jpg" class="d-block w-100 rounded" alt="coche lavado">
+                        <div class="carousel-caption">
+                            <h3 class="fs-2 text-white">Lavado y encerado</h3>
+                            <p class="fs-4 text-white">Lo limpiamos a fondo hasta la última mota de polvo</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/carousel2.jpg" class="d-block w-100 rounded" alt="motor retocado">
+                        <div class="carousel-caption">
+                            <h3 class="fs-2 text-white">Puesta a punto</h3>
+                            <p class="fs-4 text-white">Retocamos el motor a tu medida</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/carousel3.jpg" class="d-block w-100 rounded" alt="detalles coche">
+                        <div class="carousel-caption">
+                            <h3 class="fs-2 text-white">Últimos retoques</h3>
+                            <p class="fs-4 text-white">Le colocamos los detalles que más se ajusten a tí</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <!--VEHÍCULOS-->
+
+    <section>
+        <h2 class="text-center pt-4">Últimos vehículos terminados</h2>
+        <h3 class="text-center fs-4">Si no te convence el estilo todavía échale un vistazo a nuestros últimos trabajos
+        </h3>
+        <div class="container">
+            <div class="row">
+                <div class="col py-2">
+                    <div class="card" style="width: 15rem;">
+                        <img src="img/coche1.jpg" class="card-img-top" alt="dmc delorean">
+                        <div class="card-body">
+                            <h3 class="card-title">DMC DeLorean de 1985</h3>
+                            <p class="card-text">Altamente modificado para conseguir una recreación del famoso DeLorean
+                                de la
+                                película "Regreso al Futuro"</p>
+                            <p class="card-text">Coste del proyecto: 15000 €</p>
+                            <a href="#" class="btn btn-primary">Más información</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col py-2">
+                    <div class="card" style="width: 15rem;">
+                        <img src="img/coche2.webp" class="card-img-top" alt="ford 33">
+                        <div class="card-body">
+                            <h3 class="card-title">Ford Model de 1933</h3>
+                            <p class="card-text">Tuneado al más puro estilo "hot rod" americano</p>
+                            <p class="card-text">Coste del proyecto: 10000 €</p>
+                            <a href="#" class="btn btn-primary text-white">Más información</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col py-2">
+                    <div class="card" style="width: 15rem;">
+                        <img src="img/coche3.jpg" class="card-img-top" alt="amc gremlin">
+                        <div class="card-body">
+                            <h3 class="card-title">AMC Gremlin de 1972</h3>
+                            <p class="card-text">Antiguo por fuera, totalmente renovado y rejuvenecido por dentro</p>
+                            <p class="card-text">Coste del proyecto: 7500 €</p>
+                            <a href="#" class="btn btn-primary text-white">Más información</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col py-2">
+                    <div class="card" style="width: 15rem;">
+                        <img src="img/coche4.jpg" class="card-img-top" alt="citroen 2cv">
+                        <div class="card-body">
+                            <h3 class="card-title">Citroën 2CV de 1978</h3>
+                            <p class="card-text">Reestilizado y potenciado para hacer carreras drag</p>
+                            <p class="card-text">Coste del proyecto: 12000 €</p>
+                            <a href="#" class="btn btn-primary text-white">Más información</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col py-2">
+                    <div class="card" style="width: 15rem;">
+                        <img src="img/coche5.jpg" class="card-img-top" alt="vector m12">
+                        <div class="card-body">
+                            <h3 class="card-title">Vector M12 de 1995</h3>
+                            <p class="card-text">Restaurado al completo y listo para rodar como si fueran los 90s de
+                                nuevo</p>
+                            <p class="card-text">Coste del proyecto: 30000 €</p>
+                            <a href="#" class="btn btn-primary text-white">Más información</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col py-2">
+                    <div class="card" style="width: 15rem;">
+                        <img src="img/coche6.jpg" class="card-img-top" alt="peugeot 406">
+                        <div class="card-body">
+                            <h3 class="card-title">Peugeot 406 de 1998</h3>
+                            <p class="card-text">Inspirado en la British World Touring Cars de los 90s aunque sin
+                                sponsors</p>
+                            <p class="card-text">Coste del proyecto: 7000 €</p>
+                            <a href="#" class="btn btn-primary text-white">Más información</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col py-2">
+                    <div class="card" style="width: 15rem;">
+                        <img src="img/coche7.jpg" class="card-img-top" alt="ford fiesta">
+                        <div class="card-body">
+                            <h3 class="card-title">Ford Fiesta L de 1975</h3>
+                            <p class="card-text">Altamente modificado para el mundo de las carreras</p>
+                            <p class="card-text">Coste del proyecto: 45000 €</p>
+                            <a href="#" class="btn btn-primary text-white">Más información</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col py-2">
+                    <div class="card" style="width: 15rem;">
+                        <img src="img/coche8.jpg" class="card-img-top" alt="toyota supra">
+                        <div class="card-body">
+                            <h3 class="card-title">Toyota Supra de 1993</h3>
+                            <p class="card-text">Recreación-homenaje del mítico Supra de Paul Walker</p>
+                            <p class="card-text">Coste del proyecto: 13000 €</p>
+                            <a href="#" class="btn btn-primary text-white">Más información</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--UBICACIÓN-->
+
+    <section>
+        <h2 class="text-center py-4">¿Dónde puedes encontrarnos?</h2>
+        <div class="ubicacion container">
+            <div class="row">
+                <div class="col">
+                    <img src="img/taller.jpg" class="img-fluid rounded" alt="taller">
+                </div>
+                <div class="col">
+                    <img src="img/mapa.jpg" class="img-fluid rounded" alt="mapa">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 pt-2 text-center">
+                    <h4>Estamos ubicados en C/SOL 7 en Los Palacios y Villafranca, Sevilla 41270 <img
+                            src="img/geo-alt.svg" class="img-fluid" alt="ubicacion-taller"></h4>
+                </div>
+                <div class="col-12 pt-1 text-center">
+                    <h4>Tfno. de contacto: 640 31 55 83 <img src="img/telephone.svg" class="img-fluid" alt="telefono">
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--REDES-->
+
+    <section>
+        <h2 class="text-center py-4">¡Síguenos en nuestras redes sociales!</h2>
+        <div class="redes-sociales container">
+            <div class="row">
+                <div class="col text-center">
+                    <img src="img/twitter.svg" class="img-fluid" alt="twitter" width="50%">
+                    <div class="col pt-2">
+                        <p>¡No te pierdas nuestros sorteos y ofertas semanales de servicios gratis en Twitter!</p>
+                    </div>
+                </div>
+                <div class="col text-center">
+                    <img src="img/facebook.svg" class="img-fluid" alt="facebook" width="50%">
+                    <div class="col pt-2">
+                        <p>¡Sigue la actualidad y las novedades del mundo del motor con nosotros en Facebook!</p>
+                    </div>
+                </div>
+                <div class="col text-center">
+                    <img src="img/instagram.svg" class="img-fluid" alt="instagram" width="50%">
+                    <div class="col pt-2">
+                        <p>¡Mira aquí nuestras últimas y más molonas creaciones en Instagram!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--FOOTER-->
+
+        <footer class="text-color gradient d-flex flex-wrap justify-content-between align-items-center py-4 border-top">
+            <p class="col-md-4 mb-0">© 2022 Fran's Customs. Todos los derechos reservados</p>
+
+            <ul class="nav col-md-4 justify-content-end">
+                <li class="nav-item"><a href="index.html" class="nav-link px-2">Página principal</a></li>
+                <li class="nav-item"><a href="novedades.html" class="nav-link px-2">Novedades</a></li>
+                <li class="nav-item"><a href="registro.html" class="nav-link px-2">Registro/Login</a></li>
+                <li class="nav-item"><a href="acerca.html" class="nav-link px-2">Acerca de</a></li>
+            </ul>
+        </footer>
+
+</body>
+
+</html>
